@@ -1,0 +1,38 @@
+Programar 2 funciones
+1. revertir que recibe un arreglo enteros de cualquier dimensión y lo revierte, es decir, lo que está
+en el primer elemento lo intercambia con el último, el segundo con el ante último y así
+sucesivamente.
+2. Transpuesta recibe una matriz cuadrada y la convierte en su transpuesta. Como en matrices no
+podemos hacerlo genérico, la haremos para el caso de dimensión 5x5.
+A su vez en el main mostrarán los vectores (vec5 y vec10) seguidos de como quedan después de llamar
+a la función revertir. Y luego mostrarán la matriz y continuación su transpuesta.
+El código a realizar es corto, pero presten especial atención a no realizar intercambios innecesarios.
+La salida debería dar algo similar a:
+vector de 5 elementos
+4 11 19 8 3
+reverso
+3 8 19 11 4
+----------------------------------
+vector de 10 elementos
+23 15 1 7 6 27 2 14 12 9
+reverso
+9 12 14 2 27 6 7 1 15 23
+----------------------------------
+Matriz
+36 7 19 28 45
+17 33 42 3 25
+22 41 32 11 9
+39 47 14 4 23
+16 38 8 27 44
+Transpuesta
+36 17 22 39 16
+7 33 41 47 38
+19 42 32 14 8
+28 3 11 4 27
+45 25 9 23 44
+Las entregas serán válidas entre el lunes 26 de julio y el viernes 27 de agosto.
+Si bien hay tiempo recomiendo hacerlo lo antes posible por dos motivos, el primero es que les sirve de
+ejercitación para el parcial y el segundo para que si lo que entregan no llega a estar bien, tengan tiempo
+para hacer una entrega con los errores corregidos.
+Forma de entrega: via email, desde su cuenta institucional al mio, indicando que ya lo subieron a su
+repositorio personal en github. En el mail indique nombre, apellido y curso al que pertenecen.
